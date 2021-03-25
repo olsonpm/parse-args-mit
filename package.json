@@ -1,0 +1,39 @@
+{
+  "name": "@olsonpm/parse-args-mit",
+  "version": "0.1.0",
+  "description": "a collection of functions to parse arguments",
+  "main": "lib/index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Phil Olson",
+  "license": "MIT",
+  "dependencies": {
+    "camelcase": "^6.0.0",
+    "tedent": "github:olsonpm/tedent#15402221495ad39cb04153ab04a2d758b119a8bb"
+  },
+  "devDependencies": {
+    "@olsonpm/eslint-config-personal-mit": "0.1.0",
+    "eslint": "^6.8.0",
+    "prettier": "^2.0.4"
+  },
+  "eslintConfig": {
+    "extends": "@olsonpm/personal-mit"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olsonpm/parse-args-mit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/olsonpm/parse-args-mit/issues"
+  },
+  "homepage": "https://github.com/olsonpm/parse-args-mit"
+}
